@@ -66,14 +66,21 @@ const Profile = () => {
                         <IoLogoGithub />
                         killthecardz
                     </a>
-                    <a href="https://velog.io/@alsdn8055" className="flex items-center gap-[5px] text-slate-600">
+                    <a
+                        href="https://github.com/Edie-MinwooPark"
+                        className="flex items-center gap-[5px] text-slate-600"
+                    >
+                        <IoLogoGithub />
+                        Edie-MinwooPark
+                    </a>
+                    {/* <a href="https://velog.io/@alsdn8055" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
                         velog
                     </a>
                     <a href="https://blockchainiseasy.tistory.com/" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
                         블록로그
-                    </a>
+                    </a> */}
                 </p>
             </div>
         </div>
