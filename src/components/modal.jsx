@@ -11,7 +11,7 @@ const Modal = ({ show, onCloseButtonClick, children }) => {
         >
             <div className="p-8 bg-white rounded-md w-[50%]">
                 <h2 className="mb-4 text-lg font-bold">
-                    <button className="float-right" onClick={onCloseButtonClick}>
+                    <button className="float-right -mt-5" onClick={onCloseButtonClick}>
                         X
                     </button>
                 </h2>

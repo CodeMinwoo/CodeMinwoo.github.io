@@ -18,15 +18,10 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Javascript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>
-                                    변수를 선언할줄
-                                    암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!
-                                    암!암!암!암!암!암!암!암!암!암!암!암!암!암!암!
-                                </li>
-                                <li>Console.log 잘찍음</li>
-                                <li>연산자 사용할줄암!</li>
-                                <li>조건문을 배움</li>
-                                <li>배열 메서드를 능숙하게 다룸!</li>
+                                <li>실행 컨텍스트에 대한 이해</li>
+                                <li>ES6 문법 활용</li>
+                                <li>콜스택 설명가능</li>
+                                <li>이벤트루프 , Task에 대한 이해</li>
                             </ul>
                         </li>
 
@@ -36,11 +31,9 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Typescript</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Typescript 세팅할줄암!!!!!!!!!!!</li>
-                                <li>Console.log 잘찍음</li>
-                                <li>연산자 사용할줄암!</li>
-                                <li>조건문을 배움</li>
-                                <li>배열 메서드를 능숙하게 다룸!</li>
+                                <li>Typescript 설정 경험</li>
+                                <li>리액트에서 Typescript 사용 </li>
+                                <li>정적 타이핑과 동적 타이핑에 대한 이해</li>
                             </ul>
                         </li>
                     </ul>
@@ -57,23 +50,23 @@ const Skills = () => {
                                 <span className="md:w-[120px]">React</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>CRA로 프로젝트 다수 생성 경험 보유!</li>
-                                <li>상태에 대해서 설명할수있음!</li>
-                                <li>브라우저 랜더링 과정을 설명 할 수 있음!</li>
+                                <li>CRA 프로젝트 경험 </li>
+                                <li>상태에 대한 이해</li>
+                                <li>브라우저 랜더링 과정에 대한 이해</li>
                             </ul>
                         </li>
 
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
-                            <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
+                            {/* <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
                                 <SiNextdotjs />
                                 <span className="md:w-[120px]">NextJS</span>
-                            </span>
-                            <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
+                            </span> */}
+                            {/* <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>Client Component 암!</li>
                                 <li>동적라우팅 사용해봄!</li>
                                 <li>interface 배우는중!</li>
                                 <li>any 잘씀!</li>
-                            </ul>
+                            </ul> */}
                         </li>
                     </ul>
                 </li>
@@ -89,7 +82,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Express</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>RestFul API 스럽게 할라고 노력함!</li>
+                                <li>RestFul API 에 대한 이해</li>
                             </ul>
                         </li>
                     </ul>

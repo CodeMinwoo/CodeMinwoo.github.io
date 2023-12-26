@@ -41,7 +41,7 @@ const Profile = () => {
         >
             <div className="w-[280px] md:w-[28%] ">
                 <img
-                    src="./logo192.png"
+                    src={process.env.PUBLIC_URL + '/introPicture.jpg'}
                     aria-hidden
                     alt="profile image"
                     className="w-[100vw] m-auto rounded-full border-2 border-slate-500"
@@ -49,26 +49,30 @@ const Profile = () => {
             </div>
             <div className="w-[100%] box-border md:w-[70%] md:p-[10px] ">
                 <Hero>
-                    곽인구 <span className="text-[16px] text-slate-400 font-normal">web7722</span>
+                    박민우 <span className="text-[16px] text-slate-400 font-normal">killthecardz</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
-                    아주 작은 개발자가 될거야
+                그거 너무 쉬운 얘긴데? 하고싶은걸 해서 돈을 많이 벌어야죠!
                 </p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
-                    <a href="mailto:web7722@gmail.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a href="mailto:alsdn8055@gmail.com" className="flex items-center gap-[5px] text-slate-600">
                         <TfiEmail />
-                        web7722@gmail.com
+                        alsdn8055@gmail.com
                     </a>
                     <a
-                        href="https://github.com/ingoo-blockchain?tab=repositories"
+                        href="https://github.com/killthecardz?tab=repositories"
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        ingoo-blockchain
+                        killthecardz
                     </a>
-                    <a href="https://tistory.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a href="https://velog.io/@alsdn8055" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
-                        blog...
+                        velog
+                    </a>
+                    <a href="https://blockchainiseasy.tistory.com/" className="flex items-center gap-[5px] text-slate-600">
+                        <FaBlogger />
+                        블록로그
                     </a>
                 </p>
             </div>

@@ -6,6 +6,8 @@ import { DiTrello } from 'react-icons/di'
 import { DiReact } from 'react-icons/di'
 import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
+import { SiNotion, SiTailwindcss, SiSolidity, SiThreedotjs, SiRedux, SiKonva, SiMysql } from "react-icons/si";
+import ModalDetail from './modalDetail'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
@@ -13,20 +15,21 @@ const Projects = () => {
 
     return (
         <Wrapper>
-            <Heading>프로젝트</Heading>
+            <Heading>팀 프로젝트</Heading>
 
             <ul className="flex flex-col w-full gap-[120px]">
                 {/* 첫번째 프로젝트 */}
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                            src={process.env.PUBLIC_URL + '/bounSTO.png'}
                             className="w-full"
                             alt="어떤어떤 프로젝트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">팀플 프로젝트 (4명)</li>
-                            <li className="text-stone-500">2023. 12. 06 ~ 현재</li>
+                            <li className="text-[16px]">팀 프로젝트 (5명)</li>
+                            <li className="text-stone-500">2023. 10. 23 ~ 2023.12.06</li>
+                            <li>Smart Contract</li>
                             <li>front-end</li>
                             <li>
                                 <button
@@ -40,39 +43,51 @@ const Projects = () => {
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                            NFT 마켓 플레이스(협얍프로젝트){' '}
+                            부동산 토큰 증권 발행 STO 프로젝트(협약프로젝트){' '}
                             <a href="https://naver.com">
                                 <FaExternalLinkAlt />
                             </a>
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            내가 어디 회사랑 협약을 했는데 말이야~ 와 좀만 젊었어도 다 해결했을텐데 말야~ 진짜
-                            어쩌구저쩌구 궁시렁 궁시렁 진짜 해줄거 다해줬는데 안해주네~~~
+                            부동산을 토큰 증권(STO) 으로 발행하고 관리하는 리액트 웹앱 서비스 입니다. 토큰의 발행, 거래 , 투표, 전송 기능을 구현하였습니다
                         </p>
 
                         <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
                         <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
-                            <DiJavascript />
-                            <DiNodejs />
-                            <DiGithubBadge />
+                            <SiSolidity />
                             <SiTypescript />
-                            <DiTrello />
                             <DiReact />
-                            <SiNextdotjs />
+                            <SiTailwindcss />
+                            <DiNodejs />
+                            {/* <DiJavascript /> */}
+                            <DiGithubBadge />
+                            {/* <DiTrello /> */}
+                            <SiNotion />
+                            {/* <SiNextdotjs /> */}
                         </div>
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
+                        <h4 className='font-bold'>Smart Contract</h4>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>
-                                내가 어떤걸 주요하게 했냐 이말이야~ 하나 쯤은 길게 쓸수 있을 거 같지
-                                않니이이이이이이이이이이이이잉이이이이 ?
-                            </li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
+                            <li>부동산 토큰 컨트랙트 작성</li>
+                            <li>국내, 해외 KYC 인증 리서치</li>
+                            <li>ERC-1400 R&D</li>
+                            <li>ERC-4337 리서치 </li>
+                            <li>ERC-1155 리서치</li>
                         </ul>
+                        <br />
+                        <h4 className='font-bold'>Front-End</h4>
+                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
+                            <li>유저 페이지 디자인</li>
+                            <li>메인 페이지 구현</li>
+                            <li>청약 페이지 구현</li>
+                            <li>협약회사(바운스코드)로그인 연동(Oauth)</li>
+                            <li>공통 컴포넌트 구현 ( KakaoMap API, NavBar, TabComponent, Slider )</li>
+                        </ul>
+                        <br />
+                        <h4 className='font-bold'>기타</h4>
+                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]"><li>프로젝트 시연 및 발표</li></ul>
                     </div>
                 </li>
 
@@ -80,13 +95,13 @@ const Projects = () => {
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
+                            src={process.env.PUBLIC_URL + '/IKE_Picture.png'}
                             className="w-full"
-                            alt="어떤어떤 프로젝트"
+                            alt="IKE 커스텀 옷 제작 사이트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">팀플 프로젝트 (4명)</li>
-                            <li className="text-stone-500">2023. 12. 06 ~ 현재</li>
+                            <li className="text-stone-500">2023. 08.01 ~ 2023.08.29</li>
                             <li>front-end</li>
                             <li>
                                 <button
@@ -100,45 +115,106 @@ const Projects = () => {
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                            NFT 마켓 플레이스(협얍프로젝트){' '}
-                            <a href="https://naver.com">
+                            티셔츠 주문제작 사이트 IKE{' '}
+                            {/* <a href="https://naver.com">
                                 <FaExternalLinkAlt />
-                            </a>
+                            </a> */}
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            내가 어디 회사랑 협약을 했는데 말이야~ 와 좀만 젊었어도 다 해결했을텐데 말야~ 진짜
-                            어쩌구저쩌구 궁시렁 궁시렁 진짜 해줄거 다해줬는데 안해주네~~~
+                            티셔츠 등 의류를 DIY , 직접 디자인 하여 구매할 수 있도록 서비스를 제공하는 리액트  프로젝트입니다
+                            
                         </p>
 
                         <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
                         <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
-                            <DiJavascript />
-                            <DiNodejs />
-                            <DiGithubBadge />
-                            <SiTypescript />
-                            <DiTrello />
                             <DiReact />
-                            <SiNextdotjs />
+                            <SiThreedotjs />
+                            <SiKonva />
+                            <SiRedux />
+                            <DiJavascript />
+                            {/* <DiNodejs /> */}
+                            <DiGithubBadge />
+                            {/* <SiTypescript /> */}
+                            {/* <DiTrello /> */}
+                            {/* <SiNextdotjs /> */}
                         </div>
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
+                        <br />
+                        <h4 className='font-bold'>Front-End</h4>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
+                            <li>3D 티셔츠 구현</li>
+                            <li>옷 종류 변경 구현</li>
+                            <li>티셔츠 스티커 부착 구현</li>
+                            <li>티셔츠 색상 변경 구현</li>
+                            <li>상품 정보 Redux로 저장</li>
+                        </ul>
+                        <br />
+                        <h4 className='font-bold'>기타</h4>
+                        <ul className='px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]'><li>프로젝트 시연 및 발표</li></ul>
+                    </div>
+                </li>
+                <li className="flex flex-col gap-[32px] md:flex-row">
+                    <div className="w-full md:w-[420px] ">
+                        <img
+                            src={process.env.PUBLIC_URL + '/interPark2.png'}
+                            className="w-full"
+                            alt="IKE 커스텀 옷 제작 사이트"
+                        />
+                        <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
+                            <li className="text-[16px]">팀플 프로젝트 (4명)</li>
+                            <li className="text-stone-500">2023. 06.02 ~ 2023.06.26</li>
+                            <li>back-end</li>
                             <li>
-                                내가 어떤걸 주요하게 했냐 이말이야~ 하나 쯤은 길게 쓸수 있을 거 같지
-                                않니이이이이이이이이이이이이잉이이이이 ?
+                                <button
+                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    onClick={toggleModal2}
+                                >
+                                    상세보기
+                                </button>
                             </li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
+                        </ul>
+                    </div>
+                    <div className="w-full">
+                        <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
+                            인터파크 티켓예약 사이트{' '}
+                            {/* <a href="https://naver.com">
+                                <FaExternalLinkAlt />
+                            </a> */}
+                        </h2>
+
+                        <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
+                            콘서트 예매 플랫폼 ,유저들이 자유롭게 평점을 매기고 의견을 나눌 수 있는 백엔드 프로젝트 입니다
+                        </p>
+
+                        <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
+                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
+                            <DiNodejs />
+                            <SiMysql />
+                            <DiJavascript />
+                            <DiGithubBadge />
+                            {/* <SiTypescript /> */}
+                            {/* <DiTrello /> */}
+                            {/* <SiNextdotjs /> */}
+                        </div>
+
+                        <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
+                        <br />
+                        <h4 className='font-bold'>Back-End</h4>
+                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
+                            <li>게시판 댓글 구현</li>
+                            <li>게시판 대댓글 구현</li>
+                            <li>게시판 좋아요 구현</li>
+                            <li>게시판 조회수 구현</li>
+                            <li>게시판 Pagination 구현</li>
                         </ul>
                     </div>
                 </li>
             </ul>
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
-                test
+                <ModalDetail />
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
