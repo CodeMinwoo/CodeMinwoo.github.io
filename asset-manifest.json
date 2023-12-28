@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio_MinwooPark/static/css/main.0994ce36.css",
-    "main.js": "/portfolio_MinwooPark/static/js/main.1b94d995.js",
+    "main.css": "/portfolio_MinwooPark/static/css/main.d2873e63.css",
+    "main.js": "/portfolio_MinwooPark/static/js/main.e1cbb263.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio_MinwooPark/static/js/787.7da95b79.chunk.js",
     "index.html": "/portfolio_MinwooPark/index.html",
-    "main.0994ce36.css.map": "/portfolio_MinwooPark/static/css/main.0994ce36.css.map",
-    "main.1b94d995.js.map": "/portfolio_MinwooPark/static/js/main.1b94d995.js.map",
+    "main.d2873e63.css.map": "/portfolio_MinwooPark/static/css/main.d2873e63.css.map",
+    "main.e1cbb263.js.map": "/portfolio_MinwooPark/static/js/main.e1cbb263.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio_MinwooPark/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0994ce36.css",
-    "static/js/main.1b94d995.js"
+    "static/css/main.d2873e63.css",
+    "static/js/main.e1cbb263.js"
   ]
 }
