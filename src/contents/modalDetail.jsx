@@ -3,8 +3,6 @@ const ModalDetail = ()=>{
     return(
         <>
             <div className="h-[70vh] overflow-auto ">
-                <iframe src="" frameborder="0" className="rounded-lg shadow-innerneu2 hidden lg:block w-full h-96 overflow-auto mb-5 "></iframe>
-                <iframe src="" frameborder="0" className="rounded-lg shadow-innerneu2 hidden lg:block w-full h-96 overflow-auto "></iframe>
                 <div>
                 <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                 <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">

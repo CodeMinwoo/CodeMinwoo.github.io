@@ -38,13 +38,21 @@ const Projects = () => {
                                 >
                                     상세보기
                                 </button>
+                                <button 
+                                    className="mx-2 px-[14px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    onClick={()=>{window.location.href = 'https://bs.admin.bouncesto.site/admin/dashboard'}}
+                                >Admin Page</button>
+                                <button 
+                                    className="my-1 px-[14px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    onClick={()=>{window.location.href = 'https://bouncesto.site/home'}}
+                                >User Page</button>
                             </li>
                         </ul>
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
                             부동산 토큰 증권 발행 STO 프로젝트(협약프로젝트){' '}
-                            <a href="https://naver.com">
+                            <a href="https://bouncesto.site/home">
                                 <FaExternalLinkAlt />
                             </a>
                         </h2>
@@ -87,11 +95,18 @@ const Projects = () => {
                         </ul>
                         <br />
                         <h4 className='font-bold'>기타</h4>
-                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]"><li>프로젝트 시연 및 발표</li></ul>
+                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
+                            <li>
+                            프로젝트 시연 및 발표 
+                            <a href="https://www.youtube.com/watch?v=ODxsZaSgZzs" className='bg'>
+                                <FaExternalLinkAlt />
+                            </a>
+                            </li></ul>
                     </div>
                 </li>
+                       
 
-                {/* 첫번째 프로젝트 */}
+                {/* 첫번째 프로젝트 */} 
                 <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
