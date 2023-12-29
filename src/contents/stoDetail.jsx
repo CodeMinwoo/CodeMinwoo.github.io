@@ -45,11 +45,12 @@ const ModalDetail = ()=>{
                     <li>배당금 등록</li>
 
                 </ul>
-                <h3 className="py-[16px] text-[32px] font-bold">📍 본인 역할</h3>
+                <h3 className="py-[16px] text-[32px] font-bold mb-4">📍 본인 역할</h3>
+
                 <div className="text-[20px]">
                 📍 증권형 토큰 설계 및 발행 
                 </div>
-                <ul className=" list-disc px-[16px]   ">
+                <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                 
                     <div>dd</div>
                     <li>1</li>
