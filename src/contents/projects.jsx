@@ -7,7 +7,7 @@ import { DiReact } from 'react-icons/di'
 import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
 import { SiNotion, SiTailwindcss, SiSolidity, SiThreedotjs, SiRedux, SiKonva, SiMysql } from "react-icons/si";
-import ModalDetail from './modalDetail'
+import ModalDetail from './stoDetail'
 import IkeDetail from './ikeDetail'
 
 const Projects = () => {

@@ -2,15 +2,16 @@
 const ModalDetail = ()=>{
     return(
         <>
+        
             <div className="h-[70vh] overflow-auto ">
                 <div>
-                <h3 className="py-[16px] text-[16px] font-bold">기획 의도</h3>
-                <div>
+                <h1 className="py-[16px] text-[32px] font-bold">🔖 기획 의도</h1>
+                <div className="mb-5">
                 정부의 토큰증권 법안 발의 이후 STO 토큰증권 스타트업들이 생겨나기 시작했습니다.
                 협약기업 (주)바운스 코드의 요구사항에 맞추어 부동산 토큰증권 서비스를 구현하였습니다.
                 부동산을 토큰화해 유저들이 청약하고 구매,판매 할 수 있으며 배당과 투표등의 권리 행사를 블록체인을 이용하여 투명하고 공정하게  할 수 있는 서비스 입니다.
                 </div>
-                <h3 className="py-[16px] text-[16px] font-bold">주요 기능</h3>
+                <h3 className="py-[16px] text-[32px] font-bold">📌 주요 기능</h3>
                 <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                     <h3 className="mx-2 py-[16px] text-[20px] font-bold">회원</h3>
                     <li>협약사인 (주)바운스 코드의 소셜 로그인(oAuth)인 mr.login을 사용</li>
@@ -44,6 +45,28 @@ const ModalDetail = ()=>{
                     <li>배당금 등록</li>
 
                 </ul>
+                <h3 className="py-[16px] text-[32px] font-bold">📍 본인 역할</h3>
+                <div className="text-[20px]">
+                📍 증권형 토큰 설계 및 발행 
+                </div>
+                <ul className=" list-disc px-[16px]   ">
+                
+                    <div>dd</div>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+                
+
+
+                2. oAuth 로그인 연동 , accessToken 관리
+                3. 메인페이지 구현
+                4. 청약 페이지 구현
+                5. 공용 컴포넌트 ( 하단바, 진행률 바 , 스와이퍼, 카카오맵 API ) 컴포넌트 제작
+                6. 로딩 스피너 추가
+                7. 사이트 디자인
+                
+                <h3 className="py-[16px] text-[32px] font-bold">📢 프로젝트 소감</h3>
+
                 {/* <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                 <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                             <h4 className='font-bold'>Smart Contract</h4>
@@ -71,3 +94,9 @@ const ModalDetail = ()=>{
 }
 
 export default ModalDetail
+
+
+// 기획의도 🔖
+// 주요기능 📌
+// 본인역할 📍
+// 프로젝트 소감 📢
