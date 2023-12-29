@@ -25,8 +25,24 @@ const ModalDetail = ()=>{
                     <li>계약서등 메타데이터를 NFT처럼 토큰 안에 넣을 수 있는 기능 구현</li>
                     <li>토큰락업시간을 통해 매물 상장 전 지갑이동, 판매 금지 구현</li>
                     <h3 className="mx-2 py-[16px] text-[20px] font-bold">구매,판매</h3>
+                    <li>유저들이 보유한 토큰들을 원하는 가격에 판매신청, 구매신청</li>
+                    <li>부동산 토큰 판매시 원하는 수량만큼 서명을 통해 서명, 그 이후 판매 완료시 수수료를 제한 대금 입금</li>
+                    <li>구매시 지갑으로 자동으로 토큰을 받는 기능</li>
                     <h3 className="mx-2 py-[16px] text-[20px] font-bold">투표</h3>
+                    <li>토큰 보유자들은 관리자가  등록한 스마트 컨트랙트 투표에 권한행사 가능</li>
+                    <li>관리자의 투표등록 시점을 스냅샷으로 구현</li>
                     <h3 className="mx-2 py-[16px] text-[20px] font-bold">토큰 추적</h3>
+                    <li>관리자 페이지에서 네트워크의 모든 블록들을 검사해 부동산 토큰들의 거래 내용만을 추출</li>
+                    <li>추출한 토큰들 거래내역을 서버에 저장, 유저들이 플랫폼 외로 토큰을 전송하거나 외부 지갑으로부터 토큰을 받았을 때 바로 업데이트</li>
+                    <li>어드민 페이지를 통해 토큰들의 거래 내용들 확인 가능</li>
+                    <h3 className="mx-2 py-[16px] text-[20px] font-bold">관리자</h3>
+                    <li>실시간 토큰별 거래내역 표시</li>                    
+                    <li>일별,주별,월간 시세 그래프 제공</li>
+                    <li>유저 블랙리스트 추가</li>
+                    <li>부동산 매물 등록</li>
+                    <li>투표 등록</li>
+                    <li>배당금 등록</li>
+
                 </ul>
                 {/* <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                 <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>

@@ -8,6 +8,7 @@ import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
 import { SiNotion, SiTailwindcss, SiSolidity, SiThreedotjs, SiRedux, SiKonva, SiMysql } from "react-icons/si";
 import ModalDetail from './modalDetail'
+import IkeDetail from './ikeDetail'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
@@ -34,18 +35,30 @@ const Projects = () => {
                             <li>
                                 <button
                                     onClick={toggleModal}
-                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
                                 >
                                     상세보기
                                 </button>
                                 <button 
-                                    className="mx-2 px-[14px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                    onClick={()=>{window.location.href = 'https://bs.admin.bouncesto.site/admin/dashboard'}}
+                                    className="mx-2 px-[14px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
+                                    onClick={()=>{
+                                        let newWindow = window.open()
+                                        newWindow.location.href = 'https://bs.admin.bouncesto.site/admin/dashboard'}}
                                 >Admin Page</button>
                                 <button 
-                                    className="my-1 px-[14px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                    onClick={()=>{window.location.href = 'https://bouncesto.site/home'}}
+                                    className="my-1 px-[14px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
+                                    onClick={()=>{
+                                        let newWindow = window.open()
+                                        newWindow.location.href = 'https://bouncesto.site/home'}}
                                 >User Page</button>
+                                <button
+                                    className="my-1 px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
+                                    onClick={()=>{
+                                        let newWindow = window.open()
+                                        newWindow.location.href = 'https://youtu.be/ODxsZaSgZzs'}}
+                                >
+                                    시연 영상
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -98,7 +111,7 @@ const Projects = () => {
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                             <li>
                             프로젝트 시연 및 발표 
-                            <a href="https://www.youtube.com/watch?v=ODxsZaSgZzs" className='bg'>
+                            <a href="https://www.youtube.com/watch?v=ODxsZaSgZzs" className='inline-block ml-3'>
                                 <FaExternalLinkAlt />
                             </a>
                             </li></ul>
@@ -115,15 +128,23 @@ const Projects = () => {
                             alt="IKE 커스텀 옷 제작 사이트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">팀플 프로젝트 (4명)</li>
+                            <li className="text-[16px]">팀 프로젝트 (4명)</li>
                             <li className="text-stone-500">2023. 08.01 ~ 2023.08.29</li>
                             <li>front-end</li>
                             <li>
                                 <button
-                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
                                     onClick={toggleModal2}
                                 >
                                     상세보기
+                                </button>
+                                <button
+                                    className="mx-2 px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
+                                    onClick={()=>{
+                                        let newWindow = window.open()
+                                        newWindow.location.href = 'https://www.youtube.com/watch?v=IBTCIx937w4'}}
+                                >
+                                    시연 영상
                                 </button>
                             </li>
                         </ul>
@@ -178,16 +199,17 @@ const Projects = () => {
                             alt="IKE 커스텀 옷 제작 사이트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">팀플 프로젝트 (4명)</li>
+                            <li className="text-[16px]">팀 프로젝트 (4명)</li>
                             <li className="text-stone-500">2023. 06.02 ~ 2023.06.26</li>
                             <li>back-end</li>
                             <li>
                                 <button
-                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950 hidden md:inline-block"
                                     onClick={toggleModal2}
                                 >
                                     상세보기
                                 </button>
+
                             </li>
                         </ul>
                     </div>

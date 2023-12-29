@@ -1,6 +1,6 @@
 import { Wrapper, Heading } from '../components/common'
 import { DiJavascript, DiNodejs, DiGithubBadge } from 'react-icons/di'
-import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiReact } from 'react-icons/si'
+import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiReact , SiSolidity } from 'react-icons/si'
 
 const Skills = () => {
     return (
@@ -12,6 +12,17 @@ const Skills = () => {
                         언어
                     </h3>
                     <ul className="flex flex-col gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
+                        <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
+                            <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
+                                <SiSolidity />
+                                <span className="md:w-[120px]">Solidity</span>
+                            </span>
+                            <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
+                                <li>Truffle 프레임워크</li>
+                                <li>OpenZeppelin 라이브러리 사용 경험</li>
+                                <li>MetaMask 연동, 서명, 함수호출 가능</li>
+                            </ul>
+                        </li>
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
                             <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
                                 <SiJavascript />
@@ -83,6 +94,7 @@ const Skills = () => {
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li>RestFul API 에 대한 이해</li>
+                                <li>게시판 CRUD 가능</li>
                             </ul>
                         </li>
                     </ul>
