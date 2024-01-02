@@ -6,7 +6,7 @@ const IkeDetail = ()=>{
             <div className="h-[70vh] overflow-auto ">
             <div>
                 <h1 className="py-[16px] text-[32px] font-bold">🔖 기획 의도</h1>
-                옷 구매 사이트 안에서 옷을 이리저리 돌려보거나 옷에 텍스트와 스티커들을 붙일 수 있는 기능들을 보며 항상 신기해했습니다. 리액트를 배운 이후에 CANVAS를 활용해서 이런 서비스를 구현해 볼 수 있지 않을까 하는 아이디어를 바탕으로 CUSTOM 옷을 제작하고 구매할 수 있는 사이트를 만들었습니다
+                옷 구매 사이트 안에서 옷을 이리저리 돌려보거나 옷에 텍스트와 스티커들을 붙일 수 있는 기능들을 보며 항상 신기해했습니다. 리액트를 배운 이후에 CANVAS를 활용해서 이런 서비스를 구현해 볼 수 있지 않을까 하는 아이디어를 바탕으로 CUSTOM 옷을 제작하고 구매할 수 있는 사이트를 만들었습니다 
                 <div className="mb-5">
                 </div>
                 <h3 className="py-[16px] text-[32px] font-bold">📌 주요 기능</h3>
