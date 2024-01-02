@@ -1,3 +1,5 @@
+import MySwiper from "../components/swiper"
+
 
 const ModalDetail = ()=>{
     return(
@@ -47,26 +49,43 @@ const ModalDetail = ()=>{
                 </ul>
                 <h3 className="py-[16px] text-[32px] font-bold mb-4">📍 본인 역할</h3>
 
-                <div className="text-[20px]">
-                📍 증권형 토큰 설계 및 발행 
-                </div>
-                <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
+
+                <MySwiper />
+                {/* <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                 
                     <div>dd</div>
                     <li>1</li>
                     <li>2</li>
-                </ul>
+                </ul> */}
                 
+                <ul className="mt-7 text-[24px]">
+                    <li>
+                    📍 미국의 RealT STO 회사와 ERC-1400 을 바탕으로 토큰증권을 발행했습니다
+                    </li>
+                    <li>
+                    📍 oAuth 로 로그인기능을 연동하고 이를 accessToken으로 관리하였습니다
+                    </li>
+                    <li>
+                    📍 전체 페이지 디자인, 메인페이지 프론트엔드 작업을 진행하였습니다
+                    </li>
+                    <li>
+                    📍 청약 페이지 구현, 청약 완료 시 토큰 배치 민팅 기능을 구현하였습니다
+                    </li>
+                    <li>
+                    📍 하단바, 진행률 바 , 스와이퍼 , 카카오맵 API , 페이지 넘김 효과 컴포넌트를 만들었습니다
+                    </li>
+                    <li>
+                    📍 로딩 스피너를 모든 페이지에 적용했습니다
+                    </li>
+                </ul>
 
-
-                2. oAuth 로그인 연동 , accessToken 관리
-                3. 메인페이지 구현
-                4. 청약 페이지 구현
-                5. 공용 컴포넌트 ( 하단바, 진행률 바 , 스와이퍼, 카카오맵 API ) 컴포넌트 제작
-                6. 로딩 스피너 추가
-                7. 사이트 디자인
                 
                 <h3 className="py-[16px] text-[32px] font-bold">📢 프로젝트 소감</h3>
+
+                <p className="">
+                아직 국내에 STO 프로젝트들이 많지 않고 자료가 없어 해외 자료들을 참고하느라 처음에 어려움이 많았습니다<div className="br"></div> 토큰 표준들이 마땅히 없어 ERC-20 토큰에 필요한 기능들을 넣어서 구현했는데 관리자 계정에 권한이 많아 보안상으로 위험할 수 있겠다고 생각했습니다. <br /> 서비스 구현도 중요하지만 핀테크 서비스인만큼 보안도 신경쓰면서 개발해야함을 깨달았습니다.
+                <br />서비스를 만들면서 이더리움 네트워크의 블록들을 하나하나 뜯어보는 경험을 하면서 네트워크에 대한 전반적인 이해가 올라갈 수 있어 좋았습니다<div className="br"></div> 시간 제약으로 작성한 컨트랙트들에 대해서는 단위 테스트를 진행하지 못했는데, 예상할 수 없는 보안 상의 위험이 있을 수 있으니 다음 컨트랙트 개발 시 TEST DRIVEN 개발을 해야겠다고 마음먹었습니다
+                </p>
 
                 {/* <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                 <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>

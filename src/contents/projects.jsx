@@ -191,7 +191,7 @@ const Projects = () => {
                         <ul className='px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]'><li>프로젝트 시연 및 발표</li></ul>
                     </div>
                 </li>
-                <li className="flex flex-col gap-[32px] md:flex-row">
+                {/* <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
                             src={process.env.PUBLIC_URL + '/interPark2.png'}
@@ -216,9 +216,7 @@ const Projects = () => {
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
                             인터파크 티켓예약 사이트{' '}
-                            {/* <a href="https://naver.com">
-                                <FaExternalLinkAlt />
-                            </a> */}
+
                         </h2>
 
                         <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
@@ -231,9 +229,7 @@ const Projects = () => {
                             <SiMysql />
                             <DiJavascript />
                             <DiGithubBadge />
-                            {/* <SiTypescript /> */}
-                            {/* <DiTrello /> */}
-                            {/* <SiNextdotjs /> */}
+
                         </div>
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
@@ -247,7 +243,7 @@ const Projects = () => {
                             <li>게시판 Pagination 구현</li>
                         </ul>
                     </div>
-                </li>
+                </li> */}
             </ul>
 
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
@@ -255,7 +251,7 @@ const Projects = () => {
             </Modal>
 
             <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
-                test2222
+                <IkeDetail />
             </Modal>
         </Wrapper>
     )
