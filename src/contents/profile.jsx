@@ -1,5 +1,5 @@
 import { Hero } from '../components/common'
-import { IoLogoGithub } from 'react-icons/io'
+import { IoLogoGithub, IoIosPhonePortrait } from 'react-icons/io'
 import { TfiEmail } from 'react-icons/tfi'
 import { FaBlogger } from 'react-icons/fa6'
 import { useState, useRef, useEffect } from 'react'
@@ -72,6 +72,13 @@ const Profile = () => {
                     >
                         <IoLogoGithub />
                         Edie-MinwooPark
+                    </a>
+                    <a
+                        href="tel:+821024704526"
+                        className="flex items-center gap-[5px] text-slate-600"
+                    >
+                        <IoIosPhonePortrait />
+                        010-2470-4526
                     </a>
                     {/* <a href="https://velog.io/@alsdn8055" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
