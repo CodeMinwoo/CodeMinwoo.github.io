@@ -86,7 +86,7 @@ const Profile = () => {
                     </a>
                     <a href="https://blockchainiseasy.tistory.com/" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
-                        블록로그
+                        블록로그 
                     </a> */}
                 </p>
             </div>
