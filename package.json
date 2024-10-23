@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://killthecardz.github.io/portfolio_MinwooPark/",
+    "homepage": "https://cardz.github.io/portfolio_MinwooPark/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",

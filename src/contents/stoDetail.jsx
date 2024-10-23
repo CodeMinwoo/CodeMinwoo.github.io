@@ -58,9 +58,9 @@ const ModalDetail = ()=>{
                     <li>2</li>
                 </ul> */}
                 
-                <ul className="mt-7 text-[24px]">
+                <ul className="mt-7 text-[20px]">
                     <li>
-                    📍 미국의 RealT STO 회사와 ERC-1400 을 바탕으로 토큰증권을 발행했습니다
+                    📍 미국의 RealT STO 회사와 ERC-1400 을 참고하여 토큰증권을 발행했습니다
                     </li>
                     <li>
                     📍 oAuth 로 로그인기능을 연동하고 이를 accessToken으로 관리하였습니다

@@ -91,11 +91,7 @@ const Projects = () => {
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <h4 className='font-bold'>Smart Contract</h4>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>부동산 토큰 컨트랙트 작성</li>
-                            <li>국내, 해외 KYC 인증 리서치</li>
-                            <li>ERC-1400 R&D</li>
-                            <li>ERC-4337 리서치 </li>
-                            <li>ERC-1155 리서치</li>
+                            <li>ERC-20 부동산 토큰 청약 컨트랙트 작성</li>
                         </ul>
                         <br />
                         <h4 className='font-bold'>Front-End</h4>

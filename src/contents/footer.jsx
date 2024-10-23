@@ -1,5 +1,5 @@
 const Footer = () => {
-    return <>&copy; 2023. killthecardz all rights reserved </>
+    return <>&copy; 2024. MinwooPark  </>
 }
 
 export default Footer

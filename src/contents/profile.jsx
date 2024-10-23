@@ -49,7 +49,7 @@ const Profile = () => {
             </div>
             <div className="w-[100%] box-border md:w-[70%] md:p-[10px] ">
                 <Hero>
-                    박민우 <span className="text-[16px] text-slate-400 font-normal">killthecardz</span>
+                    박민우 <span className="text-[16px] text-slate-400 font-normal">CodeMinwoo</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
                 그거 너무 쉬운 얘긴데? 하고싶은걸 해서 돈을 많이 벌어야죠!
@@ -60,11 +60,11 @@ const Profile = () => {
                         alsdn8055@gmail.com
                     </a>
                     <a
-                        href="https://github.com/killthecardz?tab=repositories"
+                        href="https://github.com/codeminwoo?tab=repositories"
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        killthecardz
+                        CodeMinwoo
                     </a>
                     <a
                         href="https://github.com/Edie-MinwooPark"

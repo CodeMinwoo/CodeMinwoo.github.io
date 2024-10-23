@@ -27,7 +27,7 @@ const IkeDetail = ()=>{
                 </ul>
                 <h3 className="py-[16px] text-[32px] font-bold mb-4">📍 본인 역할</h3>
                 <Ikeswiper />
-                <ul className="mt-2 text-[20px]">
+                <ul className="mt-2 text-[16px]">
                     <li>
                     📍 three.js 를 사용하여 3D 티셔츠를 페이지에 렌더링하고 그 위에 저희 로고를 추가했습니다
                     </li>
