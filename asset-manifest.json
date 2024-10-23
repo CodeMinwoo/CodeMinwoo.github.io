@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.938ccd08.css",
-    "main.js": "/static/js/main.bad4f87d.js",
-    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "index.html": "/index.html",
-    "main.938ccd08.css.map": "/static/css/main.938ccd08.css.map",
-    "main.bad4f87d.js.map": "/static/js/main.bad4f87d.js.map",
-    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+    "main.css": "/CodeMinwoo/github.io/static/css/main.938ccd08.css",
+    "main.js": "/CodeMinwoo/github.io/static/js/main.e5e1fa82.js",
+    "static/js/787.7da95b79.chunk.js": "/CodeMinwoo/github.io/static/js/787.7da95b79.chunk.js",
+    "index.html": "/CodeMinwoo/github.io/index.html",
+    "main.938ccd08.css.map": "/CodeMinwoo/github.io/static/css/main.938ccd08.css.map",
+    "main.e5e1fa82.js.map": "/CodeMinwoo/github.io/static/js/main.e5e1fa82.js.map",
+    "787.7da95b79.chunk.js.map": "/CodeMinwoo/github.io/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.938ccd08.css",
-    "static/js/main.bad4f87d.js"
+    "static/js/main.e5e1fa82.js"
   ]
 }
